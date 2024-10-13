@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legalna Droga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="twoje_logo.png" alt="Logo Legalna Droga">
+            <h1>Legalna Droga</h1>
+        </div>
+        <p>ЛЕГАЛИЗАЦИЯ ПРЕБЫВАНИЯ В ПОЛЬШЕ ЧЕРЕЗ МЕЖДУНАРОДНУЮ ЗАЩИТУ</p>
+        <nav>
+            <ul>
+                <li><a href="#o-firmie">О компании</a></li>
+                <li><a href="#co-nas-wyroznia">Что нас отличает?</a></li>
+                <li><a href="#uslugi">Услуги</a></li>
+                <li><a href="#kontakt">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="o-firmie">
+        <h2>О компании</h2>
+        <p>Мы оказываем комплексную помощь в получении международной защиты в Польше для граждан Украины и Беларуси...</p>
+    </section>
+
+    <section id="co-nas-wyroznia">
+        <h2>Что нас отличает?</h2>
+        <p>Мы предлагаем бесплатные консультации и тщательно анализируем каждый случай...</p>
+    </section>
+
+    <section id="uslugi">
+        <h2>Услуги</h2>
+        <ul>
+            <li>Помощь в получении международной защиты</li>
+            <li>Консультации по легализации пребывания</li>
+        </ul>
+    </section>
+
+    <section id="kontakt">
+        <h2>Контакт</h2>
+        <form action="mailto:twojemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Отправить заявку на консультацию</button>
+        </form>
+
+        <div class="social-icons">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Legalna Droga. Все права защищены.</p>
+    </footer>
+</body>
+</html>
